@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+.coverage
+outputs/results/*
+outputs/reports/*
+outputs/figures/*
+outputs/audit/*
+!outputs/.gitkeep
+.DS_Store
