@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="AI cyber policy compliance auditor architecture">
+  <rect width="1200" height="360" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#0f172a">
+    <rect x="30" y="120" width="165" height="85" rx="16" fill="#e0f2fe" stroke="#0284c7"/>
+    <text x="112" y="154" text-anchor="middle">Synthetic</text><text x="112" y="178" text-anchor="middle">controls + evidence</text>
+    <rect x="230" y="120" width="165" height="85" rx="16" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="312" y="154" text-anchor="middle">Control</text><text x="312" y="178" text-anchor="middle">inventory</text>
+    <rect x="430" y="55" width="180" height="85" rx="16" fill="#fef3c7" stroke="#d97706"/>
+    <text x="520" y="90" text-anchor="middle">Framework</text><text x="520" y="114" text-anchor="middle">mapping</text>
+    <rect x="430" y="195" width="180" height="85" rx="16" fill="#ede9fe" stroke="#7c3aed"/>
+    <text x="520" y="230" text-anchor="middle">Evidence</text><text x="520" y="254" text-anchor="middle">audit</text>
+    <rect x="665" y="120" width="175" height="85" rx="16" fill="#fee2e2" stroke="#dc2626"/>
+    <text x="752" y="154" text-anchor="middle">Gap + risk</text><text x="752" y="178" text-anchor="middle">scoring</text>
+    <rect x="875" y="120" width="150" height="85" rx="16" fill="#cffafe" stroke="#0891b2"/>
+    <text x="950" y="154" text-anchor="middle">Remediation</text><text x="950" y="178" text-anchor="middle">checklist</text>
+    <rect x="1060" y="120" width="110" height="85" rx="16" fill="#e2e8f0" stroke="#475569"/>
+    <text x="1115" y="154" text-anchor="middle">Reports</text><text x="1115" y="178" text-anchor="middle">+ audit</text>
+  </g>
+  <g stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M195 162 L230 162"/>
+    <path d="M395 145 L430 105"/>
+    <path d="M395 180 L430 225"/>
+    <path d="M610 100 C640 100 640 160 665 160"/>
+    <path d="M610 240 C640 240 640 165 665 165"/>
+    <path d="M840 162 L875 162"/>
+    <path d="M1025 162 L1060 162"/>
+  </g>
+</svg>
