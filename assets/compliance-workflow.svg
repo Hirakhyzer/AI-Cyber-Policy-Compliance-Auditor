@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Responsible cyber policy compliance workflow">
+  <rect width="1200" height="300" fill="#f8fafc"/>
+  <style>
+    .box{fill:#ffffff;stroke:#0f172a;stroke-width:2;rx:14}
+    .title{font:700 24px Arial,Helvetica,sans-serif;fill:#0f172a}
+    .text{font:600 15px Arial,Helvetica,sans-serif;fill:#1e293b}
+    .sub{font:500 12px Arial,Helvetica,sans-serif;fill:#475569}
+    .arrow{stroke:#0f172a;stroke-width:3;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0f172a"/>
+    </marker>
+  </defs>
+
+  <text x="60" y="42" class="title">Responsible Compliance Workflow</text>
+
+  <rect class="box" x="40" y="90" width="160" height="90"/>
+  <text x="68" y="125" class="text">Collect</text>
+  <text x="68" y="148" class="text">Policies</text>
+  <text x="68" y="170" class="sub">inputs and scope</text>
+
+  <rect class="box" x="250" y="90" width="170" height="90"/>
+  <text x="278" y="125" class="text">Map to</text>
+  <text x="278" y="148" class="text">Controls</text>
+  <text x="278" y="170" class="sub">structured alignment</text>
+
+  <rect class="box" x="470" y="90" width="170" height="90"/>
+  <text x="498" y="125" class="text">Detect</text>
+  <text x="498" y="148" class="text">Gaps</text>
+  <text x="498" y="170" class="sub">weak coverage</text>
+
+  <rect class="box" x="690" y="90" width="180" height="90"/>
+  <text x="718" y="125" class="text">Review</text>
+  <text x="718" y="148" class="text">Evidence</text>
+  <text x="718" y="170" class="sub">supporting records</text>
+
+  <rect class="box" x="920" y="90" width="220" height="90"/>
+  <text x="948" y="125" class="text">Human Audit</text>
+  <text x="948" y="148" class="text">Decision + Report</text>
+  <text x="948" y="170" class="sub">manual judgment required</text>
+
+  <line class="arrow" x1="200" y1="135" x2="250" y2="135"/>
+  <line class="arrow" x1="420" y1="135" x2="470" y2="135"/>
+  <line class="arrow" x1="640" y1="135" x2="690" y2="135"/>
+  <line class="arrow" x1="870" y1="135" x2="920" y2="135"/>
+
+  <text x="365" y="245" class="sub">AI assists the workflow, but final compliance interpretation belongs to qualified human reviewers.</text>
+</svg>
