@@ -1,33 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="AI cyber policy compliance auditor architecture">
-  <rect width="1200" height="360" fill="#f8fafc"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="AI cyber policy compliance architecture">
+  <rect width="1200" height="380" fill="#f8fafc"/>
+  <style>
+    .box{fill:#ffffff;stroke:#2563eb;stroke-width:2;rx:16}
+    .title{font:700 28px Arial,Helvetica,sans-serif;fill:#0f172a}
+    .text{font:600 16px Arial,Helvetica,sans-serif;fill:#1e293b}
+    .sub{font:500 13px Arial,Helvetica,sans-serif;fill:#475569}
+    .arrow{stroke:#2563eb;stroke-width:4;marker-end:url(#a)}
+  </style>
   <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#2563eb"/>
     </marker>
   </defs>
-  <g font-family="Arial, sans-serif" font-size="18" fill="#0f172a">
-    <rect x="30" y="120" width="165" height="85" rx="16" fill="#e0f2fe" stroke="#0284c7"/>
-    <text x="112" y="154" text-anchor="middle">Synthetic</text><text x="112" y="178" text-anchor="middle">controls + evidence</text>
-    <rect x="230" y="120" width="165" height="85" rx="16" fill="#dcfce7" stroke="#16a34a"/>
-    <text x="312" y="154" text-anchor="middle">Control</text><text x="312" y="178" text-anchor="middle">inventory</text>
-    <rect x="430" y="55" width="180" height="85" rx="16" fill="#fef3c7" stroke="#d97706"/>
-    <text x="520" y="90" text-anchor="middle">Framework</text><text x="520" y="114" text-anchor="middle">mapping</text>
-    <rect x="430" y="195" width="180" height="85" rx="16" fill="#ede9fe" stroke="#7c3aed"/>
-    <text x="520" y="230" text-anchor="middle">Evidence</text><text x="520" y="254" text-anchor="middle">audit</text>
-    <rect x="665" y="120" width="175" height="85" rx="16" fill="#fee2e2" stroke="#dc2626"/>
-    <text x="752" y="154" text-anchor="middle">Gap + risk</text><text x="752" y="178" text-anchor="middle">scoring</text>
-    <rect x="875" y="120" width="150" height="85" rx="16" fill="#cffafe" stroke="#0891b2"/>
-    <text x="950" y="154" text-anchor="middle">Remediation</text><text x="950" y="178" text-anchor="middle">checklist</text>
-    <rect x="1060" y="120" width="110" height="85" rx="16" fill="#e2e8f0" stroke="#475569"/>
-    <text x="1115" y="154" text-anchor="middle">Reports</text><text x="1115" y="178" text-anchor="middle">+ audit</text>
-  </g>
-  <g stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)">
-    <path d="M195 162 L230 162"/>
-    <path d="M395 145 L430 105"/>
-    <path d="M395 180 L430 225"/>
-    <path d="M610 100 C640 100 640 160 665 160"/>
-    <path d="M610 240 C640 240 640 165 665 165"/>
-    <path d="M840 162 L875 162"/>
-    <path d="M1025 162 L1060 162"/>
-  </g>
+
+  <text x="60" y="46" class="title">AI Cyber Policy Compliance Auditor — Architecture</text>
+
+  <rect class="box" x="40" y="95" width="170" height="90"/>
+  <text x="66" y="128" class="text">Policy</text>
+  <text x="66" y="152" class="text">Documents</text>
+  <text x="66" y="174" class="sub">policies and controls</text>
+
+  <rect class="box" x="250" y="95" width="170" height="90"/>
+  <text x="276" y="128" class="text">Policy</text>
+  <text x="276" y="152" class="text">Parser</text>
+  <text x="276" y="174" class="sub">structured review units</text>
+
+  <rect class="box" x="460" y="95" width="180" height="90"/>
+  <text x="486" y="128" class="text">Control Mapping</text>
+  <text x="486" y="152" class="text">Engine</text>
+  <text x="486" y="174" class="sub">framework alignment</text>
+
+  <rect class="box" x="680" y="95" width="170" height="90"/>
+  <text x="706" y="128" class="text">Gap</text>
+  <text x="706" y="152" class="text">Analysis</text>
+  <text x="706" y="174" class="sub">missing coverage</text>
+
+  <rect class="box" x="890" y="95" width="220" height="90"/>
+  <text x="916" y="128" class="text">Evidence Review</text>
+  <text x="916" y="152" class="text">+ Audit Queue</text>
+  <text x="916" y="174" class="sub">priority review artifacts</text>
+
+  <path class="arrow" d="M210 140 L250 140"/>
+  <path class="arrow" d="M420 140 L460 140"/>
+  <path class="arrow" d="M640 140 L680 140"/>
+  <path class="arrow" d="M850 140 L890 140"/>
+
+  <rect class="box" x="360" y="245" width="220" height="90"/>
+  <text x="388" y="278" class="text">Reports + Findings</text>
+  <text x="388" y="302" class="text">Summary</text>
+  <text x="388" y="324" class="sub">Markdown, CSV, JSON</text>
+
+  <rect class="box" x="650" y="245" width="220" height="90"/>
+  <text x="678" y="278" class="text">Audit Ledger</text>
+  <text x="678" y="302" class="text">and Traceability</text>
+  <text x="678" y="324" class="sub">reproducible run log</text>
+
+  <path class="arrow" d="M1000 185 C1000 220 880 220 870 290"/>
+  <path class="arrow" d="M580 290 L650 290"/>
+
+  <text x="355" y="360" class="sub">Human review required — outputs support compliance analysis, not automatic certification.</text>
 </svg>
