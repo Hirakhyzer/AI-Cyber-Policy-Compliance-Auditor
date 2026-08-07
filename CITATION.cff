@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "AI Cyber Policy Compliance Auditor"
+message: "If you use this synthetic cyber policy compliance-auditing lab, please cite this repository."
+type: software
+authors:
+  - family-names: "Khyzer"
+    given-names: "Hira"
+repository-code: "https://github.com/Hirakhyzer/AI-Cyber-Policy-Compliance-Auditor"
+license: MIT
+keywords:
+  - cybersecurity
+  - governance risk and compliance
+  - compliance auditing
+  - cyber policy
+  - evidence review
+  - control mapping
+  - responsible AI
